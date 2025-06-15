@@ -2,96 +2,165 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Satyabarat Pradhan
+    - name: Email
+      value: <a href='mailto:spradhan143as@gmail.com'>spradhan143as@gmail.com</a>
+    - name: Phone
+      value: <a href='tel:+4915510464821'>+49 1551-046-4821</a>
     - name: Date of Birth
-      value: 14th March 1879
+      value: 28th October 1998
     - name: Languages
-      value: English, German
+      value: English, Hindi, German, Japanese
+    - name: Nationality
+      value: Indian
+    - name: Location
+      value: Stuttgart, Germany
+    - name: LinkedIn
+      value: <a href='https://www.linkedin.com/in/satyabrata-pradhan-00a6b916b/'>satyabrata.pradhan</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.Sc. in Electrical Engineering (Specialization - Smart Systems)
+      institution: University of Stuttgart, Germany | Grade - 1.8
+      year: 2022 - Current
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Faculty-5 of Computer Science, Electrical Engineering and Information Technology
+        - Master Thesis - RobotDog Training for Indoor Navigation via Human-Robot Collaboration and Integrated AI
+        - Research Thesis - A Framework for Cardiac MRI Feature Extraction And Visualization - Evaluation in NAKO and UK Biobank
+        - title: Courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Deep Learning
+            - Machine Learning
+            - Computer Vision
+            - Advanced Mathematics
+            - Software Engineering in Real-time Systems (SERTS)
+            - Industrial Automation Systems (IAS)
+            - Automotive Radar for Autonomous Driving
+            - Theory of Programming
+            - Advanced Topics in Artificial Intelligence
+
+    - title: B.Tech. in Electrical Engineering
+      institution: National Institute of Technology, Silchar, India | Grade - 1.3
+      year: 2016 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Master Thesis - Maximum Power Point Tracking (MPPT) based Charge Controller for Solar Photovoltaic System
+        - title: Courses
+          contents:
+            - Industrial Drives
+            - Power Systems - I,II
+            - Power Electronics - I,II
+            - Electrical Networks
+            - Electrical Machines - I,II
+            - Electrical Measurements
+            - Electromagnetic Field Theory
+            - Control Systems - I,II
+            - Signals and Systems
+            - Switchgear and Protection
+            - Electrical Machines - I,II
+            - Analog Electronics
+            - Digital Electronics
+            - Digital Signal Processing (DSP)
+            - Analog and Digital Communication
+            - Microprocessors and Microcontrollers
+            - Data Structures and Algorithms (DSA)
+            - Database Management Systems (DBMS)
+
+    - title: Exchange Semester in Computer Science
+      institution: Tokyo Institute of Technology, Japan
+      year: 2024
+      description:
+        - Selected for Academic Course Access Program (ACAP)
+        - Sponsored by Baden-Württemberg-Stiftung through BWS-Stipendium
+        - title: Courses
+          contents:
+            - Machine Learning
+            - Computer Vision
+            - Data Analytics
+            - Theory of Programming
+            - Advanced AI
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Developer (Werkstudent)
+      institution: Robert Bosch GmbH, Ludwigsburg, Germany
+      year: 09.2024 - Current
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Developed 3-axis Pan-Tilt Robot Arm for Linux Driver Sensor Test Automation
+        - Integrated real-time control with Raspberry Pi and Python/C
+        - Improved CI/HIL pipelines using Jenkins and SDM
+
+    - title: Software Developer (Werkstudent)
+      institution: Robert Bosch GmbH, Stuttgart, Germany
+      year: 10.2023 - 03.2024
+      description:
+        - Developed Azure pipeline for siren detection in automated driving
+        - Resolved ROS and Python issues; optimized Docker setup for Bazel migration
+
+    - title: Student Research Assistant
+      institution: University of Stuttgart (SimTech, ILA, IRS)
+      year: 11.2022 - Current
+      description:
+        - title: SimTech - Cluster of Excellence
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Developed Julia-based port-Hamiltonian packages for system modeling
+            - Implemented CI/CD pipelines with GitHub Actions for automated testing
+        - title: ILA - Institute of Automation and Industrial IT
+          contents:
+            - Automated High-Altitude Test Facility for aerospace applications
+            - Designed nonlinear PID controllers for precise control systems
+        - title: IRS - Institute of Robotics and Mechatronics
+          contents:
+            - Built Rice Encoder in C for Japanese asteroid mission Destiny+ (Flight Software)
+            - Developed software for autonomous navigation and control systems
+
+    - title: Senior Software Engineer
+      institution: Huawei Technologies, India
+      year: 07.2020 - 08.2022
       description:
-        - Description 1.
-        - Description 2.
+        - Developed REST APIs and scalable data ingestion pipelines for Petal Search
+        - Worked on Elasticsearch, Kafka, Redis across product flows
+        - Led SparkleSearch Knowledge Graph initiative
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Intern
+      institution: IIT Kharagpur, India
+      year: 11.2018 - 12.2018
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Electric Vehicle modeling and simulation using MATLAB/Simulink
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Baden-Württemberg-Stipendium (Exchange to Tokyo Tech)
+        - Hack NOW! Finalist - 3rd Prize (NTT DATA + Silbury)
+    - year: 2023
       items:
-        - Max Planck Medal
+        - Deutschlandstipendium (University of Stuttgart)
+    - year: 2020
+      items:
+        - Huawei Future Star - Best Innovative Performer, Team Lead
 
-- title: Academic Interests
-  type: nested_list
+- title: Publications
+  type: list
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - <a href='https://ieeexplore.ieee.org/document/9297794'>A. Sen, S. Pradhan and A. Kumar, "A Novel Curve Scanning Based MPPT Algorithm Under Partial Shading Conditions", 2020 IEEE First International Conference at STPEC 2020. doi - 10.1109/STPEC49749.2020.9297794</a>
+
+- title: Research Areas & Technologies
+  type: list
+  contents:
+    - Robotics & Autonomous Systems
+    - Human-Robot Collaboration
+    - AI Integration with Robotic Perception and Navigation
+    - Deep Learning for Medical Imaging (Cardiac MRI)
+    - Motion Estimation & Feature Extraction
+    - SLAM, LLM-based Robotics, Real-time Speech Interaction
+    - Technologies: ROS, Python, C++, Julia, TensorFlow, PyTorch, OpenCV, Docker, Git, CI/CD, MATLAB/Simulink
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Peer mentoring & community building for international students
+    - Hiking, sketching, exploring cultures and languages

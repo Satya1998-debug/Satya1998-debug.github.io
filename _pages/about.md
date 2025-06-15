@@ -2,16 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Student @ <a href='https://www.uni-stuttgart.de/'>Universität Stuttgart</a> | Werkstudent @ <a href='https://www.bosch.de/'>Bosch</a> | Student Researcher @ <a href='https://www.simtech.uni-stuttgart.de/'>SimTech</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p> Stuttgart, Germany </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +25,34 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey there, Thanks for Stopping by!!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I’m **Satyabrata** (in short 'Satya'), and I build things that think, move, and talk back (sometimes even better than humans 😄).
+I’m an student pursuing M.Sc. in [Electrical Engineering](https://www.f05.uni-stuttgart.de/ei/) at the [University of Stuttgart, Germany](https://www.uni-stuttgart.de/). I am working at the crossroads of robotics, AI, automation, and software development in [Faculty-5 Computer Science, Electrical Engineering and Information Technology](https://www.f05.uni-stuttgart.de/). Whether it’s making automation, software development or making robots walk, see, or chat — I love giving machines a touch of intelligence and a hint of personality.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+🧠 **_What I'm Up To..._**
+
+Currently, I’m wrinting my Master Thesis at the [Institute of Automation and Software Systems](https://www.ias.uni-stuttgart.de/) at the University of Stuttgart.
+
+On the _Robotics_ side, its Master Thesis, where I'm Training a RobotDog (yes, the cool quadruped kind!) to navigate indoors and traverse doors — focusing on Human-Robot collaboration. I’m integrating camera perception and speech interfaces using large language models (LLMs), enabling the robot to understand instructions and communicate back through natural speech. It’s a step toward making robots more intuitive and collaborative in shared environments. Think of it as a friendly indoor sidekick that can walk, watch, and chat!
+
+🔧 **_My Research Area Includes..._**
+
+- Deep Learning applications
+- Robotics
+- Software Development and Automation
+- LLMs and GenAI integration with Robotics (exploring...)
+- Autonomous Driving
+- Automotive Radar
+
+While I may not have mastered everything listed below, these areas deeply interest me and I’m continuously learning and evolving with the field.
+
+🗺️ **_Life Outside the Lab..._**
+
+My journey has taken me across **continents** and **cultures**. 🗾 I spent an **exchange semester** at [Science Tokyo](https://www.isct.ac.jp/en) (previously Tokyo Institute of Technology) in Japan, soaking up AI, sushi, fireworks, and the beauty of Mt. Fuji. 🇮🇹 This summer, I’ll be heading to the **Ferienakademie** in Sarntal, Italy — a highly selective program organized by [Technicla University of Munich](https://www.tum.de/en/?r=1), [FAU Erlangen](https://www.fau.eu/), and [University of Stuttgart](https://www.uni-stuttgart.de/). I have been selected for course-09 which is in collaboration with [Siemens Healthineers](https://www.siemens-healthineers.com/) at the [High Energy Photonic Centre (HEP)](https://www.siemens-healthineers.com/press/features/hep-center), where top students come together to explore big ideas and eat pasta under the Alps.
+
+🧘‍♂️ **_When I'm Not Coding..._**
+
+I’m probably hiking through forests, sketching on a quiet bench, or trying to find the best viewpoint in a new city. I love cultures, languages, and that feeling of being lost (in the good way).
+
+**_If you're building something wild with robots, AI, LLMs, or automation — let’s connect! I’m always up for a great conversation or a crazy collaboration._**
