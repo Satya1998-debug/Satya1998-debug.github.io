@@ -14,7 +14,7 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
-announcements:  # if we comment this then the new part will not be shown
+announcements: # if we comment this then the new part will not be shown
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
@@ -30,8 +30,7 @@ Hey there, Thanks for Stopping by!!
 I’m **Satyabrata** (in short 'Satya'), and I build things that think, move, and talk back (sometimes even better than humans 😄).
 I’m a student pursuing M.Sc. in [Electrical Engineering](https://www.f05.uni-stuttgart.de/ei/) at the [University of Stuttgart, Germany](https://www.uni-stuttgart.de/). I am working at the crossroads of robotics, AI, automation, and software development in [Faculty-5 Computer Science, Electrical Engineering and Information Technology](https://www.f05.uni-stuttgart.de/). Whether it’s making automation, software development or making robots walk, see, or chat — I love giving machines a touch of intelligence and a hint of personality.
 
-I’m someone who genuinely enjoys getting lost in research and discovering new ideas — especially when it involves AI, developemnt and design or anything that blends code with creativity. I love asking questions, building cool things, and exploring domains I know nothing about (yet). Whether it’s training robot dogs to open doors or figuring out how to extract meaning from medical images, I’m always chasing that “a-ha!” moment.  
-
+I’m someone who genuinely enjoys getting lost in research and discovering new ideas — especially when it involves AI, developemnt and design or anything that blends code with creativity. I love asking questions, building cool things, and exploring domains I know nothing about (yet). Whether it’s training robot dogs to open doors or figuring out how to extract meaning from medical images, I’m always chasing that “a-ha!” moment.
 
 If you're into innovation, tinkering, or just curious about what tech can do next — you're in good company. Let’s explore together
 

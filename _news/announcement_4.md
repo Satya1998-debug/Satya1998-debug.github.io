@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Got nominated for ***ACAP Abroad Exchange Semester*** at [Science Tokyo, Japan](https://www.isct.ac.jp/en) (previously, Tokyo Institute of Technology) :smile: :tada:
+Got nominated for **_ACAP Abroad Exchange Semester_** at [Science Tokyo, Japan](https://www.isct.ac.jp/en) (previously, Tokyo Institute of Technology) :smile: :tada:

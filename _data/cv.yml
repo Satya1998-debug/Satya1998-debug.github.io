@@ -167,57 +167,57 @@
       institution: SimTech - Cluster of Excellence, University of Stuttgart
       year: 02.2025 - Current
       description:
-          - Developed Julia-based port-Hamiltonian packages for system modeling
-          - Implemented CI/CD pipelines with GitHub Actions for automated testing
-          - Contributed to Open-Source Julia packages for system and control theory
-          - title: Skills
-            contents:
-              - Julia, GitHub Actions, CI/CD, Open-Source Contributions, Advanced Control Theory, Advanced Mathematics
+        - Developed Julia-based port-Hamiltonian packages for system modeling
+        - Implemented CI/CD pipelines with GitHub Actions for automated testing
+        - Contributed to Open-Source Julia packages for system and control theory
+        - title: Skills
+          contents:
+            - Julia, GitHub Actions, CI/CD, Open-Source Contributions, Advanced Control Theory, Advanced Mathematics
 
     - title: Student Assistant (studentische hilfskraft)
       institution: IPVS - Institut für Parallele und Verteilte Systeme , University of Stuttgart
       year: 09.2024 - 01.2025
       description:
-          - Formulated the project proposal for a DC-enabled microgrids in Africa (Ghana, Nigeria and Mozambique). 
-          - Core member of the Project Design and Technical team. 
-          - Developed presentational mind-maps using Miro. 
-          - REnergetic project proposal issue fixing, testing and development of user-manual for various Pilots, Users & Clients. 
-          - Functional testing of RENergetic web-interface.
-          - title: Skills
-            contents:
-              - Microsoft Office, Miro, Unit Testing, Functional Testing
+        - Formulated the project proposal for a DC-enabled microgrids in Africa (Ghana, Nigeria and Mozambique).
+        - Core member of the Project Design and Technical team.
+        - Developed presentational mind-maps using Miro.
+        - REnergetic project proposal issue fixing, testing and development of user-manual for various Pilots, Users & Clients.
+        - Functional testing of RENergetic web-interface.
+        - title: Skills
+          contents:
+            - Microsoft Office, Miro, Unit Testing, Functional Testing
 
     - title: Student Assistant (studentische hilfskraft)
       institution: ILA - Institut für Luftfahrtantriebe, University of Stuttgart
       year: 11.2023 - 08.2024
       description:
-          - Automated High-Altitude Test Facility for aerospace applications
-          - Designed nonlinear PID controllers for precise control systems
-          - Reviewed and compared the various ATF facilities in Germany
-          - title: Skills
-            contents:
-              - MATLAB, Simulink, Control Systems, Nonlinear-PID Controllers
+        - Automated High-Altitude Test Facility for aerospace applications
+        - Designed nonlinear PID controllers for precise control systems
+        - Reviewed and compared the various ATF facilities in Germany
+        - title: Skills
+          contents:
+            - MATLAB, Simulink, Control Systems, Nonlinear-PID Controllers
 
     - title: Student Assistant (studentische hilfskraft)
       institution: IRS - Institut für Raumfahrtsysteme, University of Stuttgart
       year: 11.2022 - 10.2023
       description:
-          - Built Rice Encoder algorithm in C for the Flight Software for Japanese asteroid mission Destiny+
-          - The algorithm establishes the communication between the satellite and the ground station
-          - title: Skills
-            contents:
-              - C, Data Encoding, Communication Protocols, Flight Software
+        - Built Rice Encoder algorithm in C for the Flight Software for Japanese asteroid mission Destiny+
+        - The algorithm establishes the communication between the satellite and the ground station
+        - title: Skills
+          contents:
+            - C, Data Encoding, Communication Protocols, Flight Software
 
     - title: Senior Software Engineer
       institution: Huawei Technologies, India
       year: 07.2020 - 08.2022
       description:
-        - Web development with REST-based API integration for Huawei Petal search engine using Python. 
-        - Developed Data Ingestion systems to crawl third-party websites using Web scraping and crawling. 
-        - End-to-end development of Knowledge Graph-based projects for the Petal search GUI platform. 
-        - Contributed more than 28K Lines-of-Code in 8 Product flows and 1 cross-platform project with good quality. 
-        - Developed automated tools for Query Identifier & Pattern Generator to cater to user search intentions. 
-        - Performed system integration with Elasticsearch, Apache Kafka, and Redis cache system. 
+        - Web development with REST-based API integration for Huawei Petal search engine using Python.
+        - Developed Data Ingestion systems to crawl third-party websites using Web scraping and crawling.
+        - End-to-end development of Knowledge Graph-based projects for the Petal search GUI platform.
+        - Contributed more than 28K Lines-of-Code in 8 Product flows and 1 cross-platform project with good quality.
+        - Developed automated tools for Query Identifier & Pattern Generator to cater to user search intentions.
+        - Performed system integration with Elasticsearch, Apache Kafka, and Redis cache system.
         - Carried out performance evaluation using metrics in Prometheus.
         - title: Skills
           contents:
@@ -227,10 +227,10 @@
       institution: Consultancy & Analytics Club, Indian Institute of Technology (IIT) Guwahati, India
       year: 05.2020 - 06.2020
       description:
-        - Invested 250+ hours in the Data Science Bootcamp course. 
-        - Learned basic to intermediate concepts in the domain of Data Science. 
-        - Covered topics such as Statistics, Data Preprocessing, Feature selection & engineering, Data Visualization etc. 
-        - Implemented Machine Learning algorithms like Linear & Logistic regression, decision trees, SVM, etc. 
+        - Invested 250+ hours in the Data Science Bootcamp course.
+        - Learned basic to intermediate concepts in the domain of Data Science.
+        - Covered topics such as Statistics, Data Preprocessing, Feature selection & engineering, Data Visualization etc.
+        - Implemented Machine Learning algorithms like Linear & Logistic regression, decision trees, SVM, etc.
         - Hands-on training on Neural Networks and Deep Learning using real-time datasets.
         - title: Skills
           contents:
@@ -275,7 +275,7 @@
     - Other Tools - Canva, Miro
     - Databases - Elasticsearch
     - Other Skills - SLAM, LLMs, Human-Robot Collaboration (exploring and actively learning ...)
- 
+
 - title: Research Areas for Interest and Exploration
   type: list
   contents:
