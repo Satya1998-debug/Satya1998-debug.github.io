@@ -82,7 +82,7 @@ Applications are ranked **faculty-wise** using a structured point system, and fi
 
 ---
 
-#### 🤝 The Sponsors: More Than Just Donors
+#### 🤝 _The Sponsors: More Than Just Donors..._
 
 Each DStip is **co-funded**:
 
