@@ -103,7 +103,7 @@
         - Developing a framework for training a quadruped robot (RobotDog) for indoor navigation.
         - Integrating human-robot collaboration techniques with AI for enhanced navigation.
         - Integrating existing SLAM, camera, and motion estimation algorithms for real-time navigation.
-        - Intergrating existing real-time speech interaction module for user commands and feedback, developed using LLMs.
+        - Integrating existing real-time speech interaction module for user commands and feedback, developed using LLMs.
         - Implementing a real-time control system for the robot using ROS and Python.
         - title: Skills
           contents:
