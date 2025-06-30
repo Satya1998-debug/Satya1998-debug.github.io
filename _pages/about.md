@@ -27,8 +27,9 @@ latest_posts: # if we comment this then the posts part will be skipped
 
 Hey there, Thanks for Stopping by!!
 
-I’m **Satyabrata** (in short 'Satya'), and I build things that think, move, and talk back (sometimes even better than humans 😄).
-I’m a student pursuing M.Sc. in [Electrical Engineering](https://www.f05.uni-stuttgart.de/ei/) at the [University of Stuttgart, Germany](https://www.uni-stuttgart.de/). I am working at the crossroads of robotics, AI, automation, and software development in [Faculty-5 Computer Science, Electrical Engineering and Information Technology](https://www.f05.uni-stuttgart.de/). Whether it’s making automation, software development or making robots walk, see, or chat — I love giving machines a touch of intelligence and a hint of personality.
+I’m **Satyabrata** (in short 'Satya'), a **student researcher** and a **developer**. I prefer to work in an amalgamation of both _Software_ and _Hardware_ realms, getting a taste of both Computer Science and Electrical Engineering.
+
+I’m a student pursuing M.Sc. in [Electrical Engineering](https://www.f05.uni-stuttgart.de/ei/) at the [University of Stuttgart, Germany](https://www.uni-stuttgart.de/). With a specialization in **Smart Systems**, I am working at the crossroads of Robotics, Computer Vision, Artificial Intelligence, Automation, and Software Development in [Faculty-5 Computer Science, Electrical Engineering and Information Technology](https://www.f05.uni-stuttgart.de/). Whether it’s making automation, software development or making robots walk, see, or chat — I love giving machines a touch of intelligence and a hint of personality.
 
 I’m someone who genuinely enjoys getting lost in research and discovering new ideas — especially when it involves AI, developemnt and design or anything that blends code with creativity. I love asking questions, building cool things, and exploring domains I know nothing about (yet). Whether it’s training robot dogs to open doors or figuring out how to extract meaning from medical images, I’m always chasing that “a-ha!” moment.
 
@@ -42,12 +43,14 @@ On the _Robotics_ side, its Master Thesis, where I'm Training a RobotDog (yes, t
 
 🔧 **_My Research Area Includes..._**
 
-- Deep Learning applications
-- Robotics
+- Deep Learning
+- Machine Learning
+- Computer Vision
+- Human-Robot Collaboration
+- Robotics (actively progressing ...)
 - Software Development and Automation
 - LLMs and GenAI integration with Robotics (exploring...)
-- Autonomous Driving
-- Automotive Radar
+- Autonomous Driving (Enthusiastic about...)
 
 While I may not have mastered everything listed below, these areas deeply interest me and I’m continuously learning and evolving with the field.
 

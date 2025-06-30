@@ -22,7 +22,7 @@
   type: time_table
   contents:
     - title: M.Sc. in Electrical Engineering (Specialization - Smart Systems)
-      institution: University of Stuttgart, Germany | Grade - 1.8
+      institution: University of Stuttgart, Germany | Grade - 1.6
       year: 10.2022 - Current
       description:
         - Faculty-5 of Computer Science, Electrical Engineering and Information Technology
@@ -111,7 +111,7 @@
 
     - title: A Framework for Cardiac MRI Feature Extraction And Visualization [Research Thesis]
       year: 11.2024 - 05.2025
-      institution: Universitätsklinikum Tübingen in collaboration with Institut für Signalverarbeitung und Systemtheorie (ISS), Universität Stuttgart
+      institution: Universitätsklinikum Tübingen & ISS, Universität Stuttgart | Grade - 1.0
       description:
         - Developed a framework for cardiac feature extraction and visualization of cardiac MRI data.
         - Evaluated the framework using datasets from NAKO and UK Biobank.
