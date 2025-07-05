@@ -6,7 +6,8 @@ repo_description_lines_max: 2
 github_repos:
   - Satya1998-debug/lossless-data-compression
   - Satya1998-debug/Eco-Riders
+  - Satya1998-debug/ROS_Projects
+  - Satya1998-debug/computer_vision_basics
+  - Satya1998-debug/ROS_fundamentals
   - Satya1998-debug/klap
   - Satya1998-debug/QuadraticOutputSystems.jl
-  - Satya1998-debug/ros_basics
-  - Satya1998-debug/computer_vision_basics
