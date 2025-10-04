@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Culture Shock on a Plate - Eating Your Way Through Stuttgart
-date: 2024-04-15 10:00:00
+date: 2025-09-18 10:00:00
 description: "New in Stuttgart? Discover the food habits, Swabian dishes, and student survival tips that will surprise you—and help you feel at home."
 tags: culture food stuttgart studentlife
 categories: germany
