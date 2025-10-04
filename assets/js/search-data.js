@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-deutschland-stipdendium-the-german-national-scholarship",
+        },{id: "post-culture-shock-on-a-plate-eating-your-way-through-stuttgart",
+        
+          title: "Culture Shock on a Plate - Eating Your Way Through Stuttgart",
+        
+        description: "New in Stuttgart? Discover the food habits, Swabian dishes, and student survival tips that will surprise you—and help you feel at home.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Cultureshock/";
+          
+        },
+      },{id: "post-deutschland-stipdendium-the-german-national-scholarship",
         
           title: "Deutschland Stipdendium (The German National Scholarship)",
         
@@ -46,17 +57,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/Deutschlandstipendium/";
-          
-        },
-      },{id: "post-culture-shock-on-a-plate-eating-your-way-through-stuttgart",
-        
-          title: "Culture Shock on a Plate - Eating Your Way Through Stuttgart",
-        
-        description: "New in Stuttgart? Discover the food habits, Swabian dishes, and student survival tips that will surprise you—and help you feel at home.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/Cultureshock/";
           
         },
       },{id: "books-the-godfather",
