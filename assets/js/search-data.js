@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-culture-shock-on-a-plate-eating-your-way-through-stuttgart",
+        },{id: "post-ferienakademie-2025-a-once-in-a-lifetime-experience-in-south-tyrol",
+        
+          title: "🌄 Ferienakademie 2025 – A Once-in-a-Lifetime Experience in South Tyrol 🇮🇹",
+        
+        description: "A two-week adventure combining innovation, teamwork, and breathtaking Alpine landscapes – from collaborative coding to mountain hikes.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Ferienakademie/";
+          
+        },
+      },{id: "post-culture-shock-on-a-plate-eating-your-way-through-stuttgart",
         
           title: "Culture Shock on a Plate - Eating Your Way Through Stuttgart",
         
