@@ -9,11 +9,10 @@ last_name: Pradhan
 contact_note: >
   Reach me out on LinkedIn with just one click!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Satyabrata Pradhan. M.Sc. student in Electrical Engineering at the University of Stuttgart, working on robotics, medical imaging, and automation software.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -190,7 +189,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - _pages/projects.md
+  - _books/the_godfather.md
   - _news/announcement_7.md
   - _pages/dropdown.md
 keep_files:
@@ -257,8 +256,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["travel", "motivation", "math", "code", "research", "academics", "achivements"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["academics", "motivation", "culture", "studentlife", "Ferienakademie"] # these tags will be displayed on the front page of your blog
+display_categories: ["germany", "scholarship"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

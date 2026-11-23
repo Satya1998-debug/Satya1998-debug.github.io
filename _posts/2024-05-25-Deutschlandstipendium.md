@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deutschland Stipdendium (The German National Scholarship)
+title: Deutschlandstipendium (The German National Scholarship)
 date: 2024-05-25 16:40:16
 description: The scholarship that changed my life.
 tags: motivation studyingermany academics

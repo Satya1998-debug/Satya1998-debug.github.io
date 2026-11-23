@@ -40,7 +40,7 @@
             - Industrial Automation Systems (IAS)
             - Automotive Radar for Autonomous Driving
             - Semiconductor Engineering IV (SE4)
-            - Matrix Compution for Machine Learning and Signal Processing
+            - Matrix Computation for Machine Learning and Signal Processing
             - Modelling and Analysis of Automation Systems (MAAS)
             - Scientific Writing and Research (FÜSQ)
         - title: Industrial Automation Master Lab Course
@@ -115,7 +115,7 @@
       description:
         - Developed a framework for cardiac feature extraction and visualization of cardiac MRI data.
         - Evaluated the framework using datasets from NAKO and UK Biobank.
-        - Integrated Deep learning models like U-Net for segmentation, MOPNet for motion estimation, and DeepStrain's Green Lagrange Strain Compution module for strain tensor calculation.
+        - Integrated Deep learning models like U-Net for segmentation, MOPNet for motion estimation, and DeepStrain's Green Lagrange Strain Computation module for strain tensor calculation.
         - Used Open-source framework Pyradiomics for radiomics feature extraction.
         - Features like ventricular volumes, diameters, stroke volumes, ejection fractions, and myocardial strain were extracted and visualized using AHA Bullseye.
         - Interactive GUI using Streamlit for visualization and analysis of cardiac MRI data.
@@ -132,7 +132,7 @@
         - Developed a novel curve scanning-based MPPT algorithm to optimize energy harvesting considering the multi-modal I-V characteristics and P-V curves.
         - Implemented the algorithm using MATLAB/Simulink for simulation and analysis to adjust the duty cycle of the DC-DC converter for converging at Global Maximum Power Point (GMPP).
         - Conducted experiments and hardware verification to validate the performance of the MPPT algorithm under varying environmental conditions.
-        - Consummated an IEEE paper on the MPPT algorithm.
+        - Published an IEEE paper on the MPPT algorithm.
         - title: Skills
           contents:
             - C, MATLAB, Simulink, MPPT Algorithms, Solar PV Systems

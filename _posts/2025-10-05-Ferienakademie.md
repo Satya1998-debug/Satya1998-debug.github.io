@@ -4,7 +4,7 @@ title: 🌄 Ferienakademie 2025 – A Once-in-a-Lifetime Experience in South Tyr
 date: 2025-10-05 10:00:00
 description: "A two-week adventure combining innovation, teamwork, and breathtaking Alpine landscapes – from collaborative coding to mountain hikes."
 tags: Ferienakademie SoftwareEngineering GenAI LLM Drones Linova SiemensHealthineers TUM FAU UniversityOfStuttgart Makeathon TechJourney
-categories: Germany
+categories: germany
 ---
 
 <div style="display: flex; flex-wrap: wrap; gap: 2px; align-items: flex-start; justify-content: center; margin-bottom: 0.5em;">

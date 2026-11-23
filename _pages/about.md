@@ -25,41 +25,28 @@ latest_posts: # if we comment this then the posts part will be skipped
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey there, Thanks for Stopping by!!
+I’m **Satyabrata** (Satya). I build software that has to meet hardware: robots that move through real rooms, imaging pipelines that turn scans into numbers, and test rigs that run without someone standing next to them.
 
-I’m **Satyabrata** (in short 'Satya'), a **student researcher** and a **developer**. I prefer to work in an amalgamation of both _Software_ and _Hardware_ realms, getting a taste of both Computer Science and Electrical Engineering.
+I’m finishing an M.Sc. in [Electrical Engineering](https://www.f05.uni-stuttgart.de/ei/), specialization Smart Systems, at the [University of Stuttgart](https://www.uni-stuttgart.de/) in [Faculty 5](https://www.f05.uni-stuttgart.de/). Alongside the degree I work as a student researcher at [SimTech](https://www.simtech.uni-stuttgart.de/) and as a Werkstudent at [Bosch](https://www.bosch.de/).
 
-I’m a student pursuing M.Sc. in [Electrical Engineering](https://www.f05.uni-stuttgart.de/ei/) at the [University of Stuttgart, Germany](https://www.uni-stuttgart.de/). With a specialization in **Smart Systems**, I am working at the crossroads of Robotics, Computer Vision, Artificial Intelligence, Automation, and Software Development in [Faculty-5 Computer Science, Electrical Engineering and Information Technology](https://www.f05.uni-stuttgart.de/). Whether it’s making automation, software development or making robots walk, see, or chat — I love giving machines a touch of intelligence and a hint of personality.
+**What I’m working on**
 
-I’m someone who genuinely enjoys getting lost in research and discovering new ideas — especially when it involves AI, developemnt and design or anything that blends code with creativity. I love asking questions, building cool things, and exploring domains I know nothing about (yet). Whether it’s training robot dogs to open doors or figuring out how to extract meaning from medical images, I’m always chasing that “a-ha!” moment.
+My master’s thesis is at the [Institute for Automation and Software Systems](https://www.ias.uni-stuttgart.de/). I’m training a quadruped to navigate indoors and pass through doors. The stack combines camera perception, SLAM, ROS, and a speech interface built with large language models, so a person can tell the robot what to do and hear it answer.
 
-If you're into innovation, tinkering, or just curious about what tech can do next — you're in good company. Let’s explore together
+Before that I wrote a research thesis, graded 1.0, with University Hospital Tübingen and ISS at the University of Stuttgart: a framework for cardiac MRI feature extraction and visualization, evaluated on NAKO and UK Biobank. Segmentation, motion, strain, and radiomics feed a Streamlit view of volumes, ejection fraction, and an AHA bullseye.
 
-🧠 **_What I'm Up To..._**
+**Topics I keep coming back to**
 
-Currently, I’m writing my Master Thesis at the [Institute of Automation and Software Systems](https://www.ias.uni-stuttgart.de/) at the University of Stuttgart.
+- Robotics and human–robot collaboration
+- Computer vision and deep learning
+- Medical image analysis
+- Automation software, from ROS and embedded controllers to CI
+- Language models running on a physical machine
 
-On the _Robotics_ side, its Master Thesis, where I'm Training a RobotDog (yes, the cool quadruped kind!) to navigate indoors and traverse doors — focusing on Human-Robot collaboration. I’m integrating camera perception and speech interfaces using large language models (LLMs), enabling the robot to understand instructions and communicate back through natural speech. It’s a step toward making robots more intuitive and collaborative in shared environments. Think of it as a friendly indoor sidekick that can walk, watch, and chat!
+**Places the work has taken me**
 
-🔧 **_My Research Area Includes..._**
+An exchange semester at [Science Tokyo](https://www.isct.ac.jp/en) (then Tokyo Institute of Technology), funded by the Baden-Württemberg-Stipendium, was machine learning, computer vision, and AI. In 2025 I spent two weeks at Ferienakademie in Sarntal with the [Technical University of Munich](https://www.tum.de/en/), [FAU Erlangen-Nürnberg](https://www.fau.eu/), and the University of Stuttgart, on a [Siemens Healthineers](https://www.siemens-healthineers.com/) course at the [High Energy Photon Center](https://www.siemens-healthineers.com/press/features/hep-center). I wrote that up in [Ferienakademie 2025](/blog/2025/Ferienakademie/).
 
-- Deep Learning
-- Machine Learning
-- Computer Vision
-- Human-Robot Collaboration
-- Robotics (actively progressing ...)
-- Software Development and Automation
-- LLMs and GenAI integration with Robotics (exploring...)
-- Autonomous Driving (Enthusiastic about...)
+Away from the lab I hike, sketch, and look for the next viewpoint.
 
-While I may not have mastered everything listed below, these areas deeply interest me and I’m continuously learning and evolving with the field.
-
-🗺️ **_Life Outside the Lab..._**
-
-My journey has taken me across **continents** and **cultures**. I spent an **exchange semester** at [Science Tokyo](https://www.isct.ac.jp/en) (previously Tokyo Institute of Technology) in Japan 🗾, soaking up AI, sushi, fireworks, and witnessing the beauty of Mt. Fuji. This summer, I’ll be heading to the **Ferienakademie** in Sarntal, Italy 🇮🇹 — a highly selective program organized by [Technicla University of Munich](https://www.tum.de/en/?r=1), [FAU Erlangen](https://www.fau.eu/), and [University of Stuttgart](https://www.uni-stuttgart.de/). I have been selected for course-09 which is in collaboration with [Siemens Healthineers](https://www.siemens-healthineers.com/) at the [High Energy Photonic Centre (HEP)](https://www.siemens-healthineers.com/press/features/hep-center), where top students come together to explore big ideas and eat pasta under the Alps.
-
-🧘‍♂️ **_When I'm Not Coding..._**
-
-I’m probably hiking through forests, sketching on a quiet bench, or trying to find the best viewpoint in a new city. I love cultures, languages, and that feeling of being lost (in the good way).
-
-**_If you're building something wild with robots, AI, LLMs, or automation — let’s connect! I’m always up for a great conversation or a crazy collaboration._**
+If you are building robots, medical imaging tools, or automation, I would like to hear about it. The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/satyabrata-pradhan-00a6b916b/).
