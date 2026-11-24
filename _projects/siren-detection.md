@@ -4,6 +4,9 @@ title: Siren detection in the audio loop
 description: Werkstudent work at Bosch. An Azure pipeline around a ROS siren classifier, plus the Docker and Bazel move that kept the build reproducible.
 importance: 2
 category: industry
+icon: ti ti-volume
+period: 2023 – 2024
+tech: [Python, ROS, Azure DevOps, Docker, Bazel]
 ---
 
 Software developer (Werkstudent) at Robert Bosch GmbH, Stuttgart (October 2023 – March 2024).

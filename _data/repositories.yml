@@ -3,11 +3,84 @@ github_users:
 
 repo_description_lines_max: 2
 
-github_repos:
-  - Satya1998-debug/lossless-data-compression
-  - Satya1998-debug/Eco-Riders
-  - Satya1998-debug/ROS_Projects
-  - Satya1998-debug/computer_vision_basics
-  - Satya1998-debug/ROS_fundamentals
-  - Satya1998-debug/klap
-  - Satya1998-debug/QuadraticOutputSystems.jl
+language_colors:
+  Python: "#3572A5"
+  C: "#555555"
+  Jupyter Notebook: "#DA5B0B"
+  Julia: "#a270ba"
+  TypeScript: "#3178c6"
+
+repo_groups:
+  - title: Robotics & agentic AI
+    icon: ti ti-robot
+    repos:
+      - name: robotdog_guide
+        description: LangGraph agent for the RoboDog Guide thesis. Speech in and out, RAG over building data, and human-approved navigation goals sent to ROS over rosbridge.
+        language: Python
+        topics: [LangGraph, Ollama, RAG, rosbridge]
+        project: /projects/robotdog-indoor-navigation/
+      - name: door_navigation
+        description: ROS Noetic package that gets a Unitree Go1 through doors. YOLO11 door detection, Depth Anything V2 for glass, and a Door Coordinator state machine on top of move_base.
+        language: Python
+        topics: [ROS Noetic, YOLO11, TensorRT, move_base]
+        project: /projects/robotdog-indoor-navigation/
+      - name: CallPilot
+        description: Hack-Nation 2026. A voice agent that finds nearby providers, checks your calendar and books the appointment.
+        language: Python
+        topics: [LangGraph, ElevenLabs, Google Maps, MCP]
+        project: /projects/callpilot/
+      - name: behaviour_transformer_policy
+        description: A modified Behavior Transformer policy for the PushT manipulation task, trained with Hugging Face LeRobot.
+        language: Python
+        topics: [PyTorch, LeRobot, imitation learning]
+        project: /projects/behaviour-cloning-transformers/
+
+  - title: ROS, vision and deep learning foundations
+    icon: ti ti-school
+    repos:
+      - name: ROS_Projects
+        description: ROS 2 Humble projects, including battery LED control, a turtlesim "catch them all" game and custom message and service interfaces.
+        language: Python
+        topics: [ROS 2 Humble, rclpy]
+      - name: ROS_fundamentals
+        description: "ROS fundamentals: nodes, publishers and subscribers, services and clients, interfaces, parameters, launch files, URDF and bags."
+        language: Python
+        topics: [ROS 2, URDF, launch]
+      - name: computer_vision_basics
+        description: Basic computer vision operations and concepts, implemented with OpenCV in notebooks.
+        language: Jupyter Notebook
+        topics: [OpenCV, image processing]
+      - name: PyTorch_fundamentals
+        description: A small PyTorch training pipeline, with data loader, model, config and training loop on a Fashion-MNIST subset.
+        language: Python
+        topics: [PyTorch, deep learning]
+
+  - title: Research code, hackathons and contributions
+    icon: ti ti-flask
+    repos:
+      - name: lossless-data-compression
+        description: Lossless Rice encoding in C, written for the flight software of JAXA's DESTINY+ asteroid mission.
+        language: C
+        topics: [C, compression, flight software]
+        project: /projects/rice-encoder/
+      - name: Eco-Riders
+        description: Hack NOW! 2024, 3rd prize. A Streamlit carpooling app for football fans with CO₂ savings and route maps.
+        language: Python
+        topics: [Streamlit, OpenRouteService, Folium]
+        fork: true
+        project: /projects/eco-riders-hackathon/
+      - name: klap
+        description: "Code for the paper KLAP: KYP lemma based low-rank approximation for H2-optimal passivation."
+        language: Julia
+        topics: [Julia, model reduction]
+        fork: true
+      - name: QuadraticOutputSystems.jl
+        description: A Julia package for linear control systems with quadratic outputs.
+        language: Julia
+        topics: [Julia, control theory]
+        fork: true
+      - name: control-deck-zen
+        description: A web app prototype built with Lovable.
+        language: TypeScript
+        topics: [TypeScript, Lovable]
+        fork: true

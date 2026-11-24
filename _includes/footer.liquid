@@ -18,13 +18,29 @@
     </div>
   </footer>
 {% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo">
+  <footer class="sticky-bottom site-footer mt-5" role="contentinfo">
     {% if site.newsletter.enabled %}
       {% include newsletter.liquid %}
     {% endif %}
 
     <div class="container">
-      {{ footer_contents }}
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand-mark" aria-hidden="true">
+            {{- site.first_name | slice: 0 -}}
+            {{- site.last_name | slice: 0 -}}
+          </span>
+          <div>
+            <span class="footer-name">
+              {{- site.first_name }}
+              {{ site.last_name -}}
+            </span>
+            <span class="footer-role">{{ site.footer_role }}</span>
+          </div>
+        </div>
+        <div class="footer-social">{% include social.liquid %}</div>
+      </div>
+      <div class="footer-bottom">{{ footer_contents }}</div>
     </div>
   </footer>
 {% endif %}

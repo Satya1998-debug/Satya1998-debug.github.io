@@ -32,6 +32,30 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Modern palette
+$indigo-color: #4f46e5 !default;
+$indigo-color-light: #818cf8 !default;
+$teal-color: #0891b2 !default;
+$teal-color-light: #22d3ee !default;
+$slate-50: #f8fafc;
+$slate-400: #94a3b8;
+$slate-500: #64748b;
+$slate-200: #e2e8f0;
+$slate-900: #0f172a;
+$navy-bg: #0b1020;
+$navy-card: #121a2f;
+
+// Typography
+$font-sans:
+  "Inter",
+  system-ui,
+  -apple-system,
+  "Segoe UI",
+  Roboto,
+  sans-serif;
+$font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+$font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
 // Theme colors
 
 $code-bg-color-light: rgba($purple-color, 0.05);

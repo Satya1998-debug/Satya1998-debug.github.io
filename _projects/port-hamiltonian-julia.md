@@ -5,6 +5,9 @@ description: Student research at SimTech. Julia packages for system modeling, wi
 importance: 4
 category: research
 github: https://github.com/Satya1998-debug/QuadraticOutputSystems.jl
+icon: ti ti-math-function
+period: 2025
+tech: [Julia, GitHub Actions, Control Theory]
 ---
 
 Student assistant work at [SimTech](https://www.simtech.uni-stuttgart.de/), University of Stuttgart (since February 2025).

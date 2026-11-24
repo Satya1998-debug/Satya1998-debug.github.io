@@ -1,0 +1,38 @@
+# Skill name (as written in _pages/about.md) -> file in assets/img/logos/.
+# Skills without an entry are shown as a text chip.
+Python: python.svg
+C: c.svg
+C++: cplusplus.svg
+Julia: julia.svg
+MATLAB: matlab.svg
+ROS: ros.svg
+ROS 2: ros.svg
+NVIDIA Jetson: nvidia.svg
+Raspberry Pi: raspberrypi.svg
+Linux: linux.svg
+PyTorch: pytorch.svg
+TensorFlow: tensorflow.svg
+OpenCV: opencv.svg
+Open3D: open3d.svg
+NumPy: numpy.svg
+scikit-learn: scikitlearn.svg
+Hugging Face: huggingface.svg
+YOLO: ultralytics.svg
+LangChain: langchain.svg
+LangGraph: langgraph.svg
+Ollama: ollama.svg
+MCP: modelcontextprotocol.svg
+Git: git.svg
+Docker: docker.svg
+Jenkins: jenkins.svg
+GitHub Actions: githubactions.svg
+Azure DevOps: azuredevops.svg
+Bazel: bazel.svg
+CMake: cmake.svg
+FastAPI: fastapi.svg
+Flask: flask.svg
+Django: django.svg
+Streamlit: streamlit.svg
+Elasticsearch: elasticsearch.svg
+Kafka: apachekafka.svg
+Redis: redis.svg

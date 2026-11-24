@@ -6,6 +6,11 @@ importance: 3
 category: research
 related_publications: true
 img: assets/img/publication_preview/ieee_algo.png
+featured: true
+featured_rank: 6
+icon: ti ti-solar-panel
+period: 2019 – 2020
+tech: [MATLAB, Simulink, C, Power Electronics]
 ---
 
 Bachelor's thesis in Electrical Engineering at the National Institute of Technology, Silchar (July 2019 – May 2020), and the paper that came out of it.

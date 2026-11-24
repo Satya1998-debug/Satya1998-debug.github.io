@@ -1,0 +1,47 @@
+{% assign project = include.project %}
+{% if project.redirect %}
+  {% assign project_href = project.redirect %}
+{% else %}
+  {% assign project_href = project.url | relative_url %}
+{% endif %}
+<article class="project-card reveal">
+  <a class="project-card-link" href="{{ project_href }}" aria-label="{{ project.title }}"></a>
+  <div class="project-visual{% if project.img %} has-img{% endif %}">
+    {% if project.img %}
+      {%
+        include figure.liquid
+        path=project.img
+        sizes="(min-width: 768px) 340px, 95vw"
+        alt=project.title
+        class="project-img"
+      %}
+    {% else %}
+      <i class="{{ project.icon | default: 'ti ti-code' }}"></i>
+    {% endif %}
+    {% if project.period %}
+      <span class="project-period">{{ project.period }}</span>
+    {% endif %}
+  </div>
+  <div class="project-body">
+    {% if project.category %}
+      <span class="project-category">{{ project.category | replace: '-', ' ' }}</span>
+    {% endif %}
+    <h3 class="project-title">{{ project.title }}</h3>
+    <p class="project-desc">{{ project.description }}</p>
+    {% if project.tech %}
+      <div class="chip-row">
+        {% for tech in project.tech limit: 5 %}
+          <span class="chip">{{ tech }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+    <div class="project-footer">
+      <span class="project-more">Read more <i class="ti ti-arrow-right"></i></span>
+      {% if project.github %}
+        <a class="project-gh" href="{{ project.github }}" title="Code repository" target="_blank" rel="noopener noreferrer">
+          <i class="ti ti-brand-github"></i>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</article>

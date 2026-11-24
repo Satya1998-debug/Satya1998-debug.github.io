@@ -1,80 +1,370 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+{% capture full_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
+{% assign cv_pdf = site.cv_pdf %}
+{% if cv_pdf contains '://' %}
+  {% assign cv_href = cv_pdf %}
+{% elsif cv_pdf %}
+  {% assign cv_href = cv_pdf | prepend: 'assets/pdf/' | relative_url %}
+{% endif %}
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+<div class="home">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-text">
+        {% if page.hero.status %}
+          <span class="status-pill"><span class="status-dot"></span>{{ page.hero.status }}</span>
+        {% endif %}
+        <h1 class="hero-title">
+          <span class="hero-greeting">{{ page.hero.greeting | default: "Hi, I'm" }}</span>
+          <span class="gradient-text">{{ full_name | strip }}</span>
+        </h1>
+        {% if page.hero.roles %}
+          <p class="hero-roles">
+            {{ page.hero.lead }}
+            <span class="typed" data-roles="{{ page.hero.roles | join: '|' | escape }}">{{ page.hero.roles | first }}</span>
+          </p>
+        {% endif %}
+        <p class="hero-subtitle">{{ page.subtitle }}</p>
+        {% if page.hero.tagline %}
+          <p class="hero-tagline">{{ page.hero.tagline }}</p>
+        {% endif %}
+
+        <div class="hero-actions">
+          {% if cv_href %}
+            <a class="btn-modern btn-primary-modern" href="{{ cv_href }}" target="_blank" rel="noopener noreferrer">
+              <i class="ti ti-download"></i> Download CV
+            </a>
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+          <a class="btn-modern btn-ghost-modern" href="#contact"> <i class="ti ti-messages"></i> Get in touch </a>
+          <a class="btn-modern btn-link-modern" href="{{ '/projects/' | relative_url }}"> See my work <i class="ti ti-arrow-right"></i> </a>
+        </div>
+
+        <div class="hero-social">{% include social.liquid %}</div>
+      </div>
+
+      {% if page.profile.image %}
+        <div class="hero-visual">
+          <div class="hero-photo">
+            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+            {%
+              include figure.liquid loading="eager" path=profile_image_path class="hero-photo-img" sizes="(min-width: 768px) 340px, 70vw"
+              alt=full_name cache_bust=true
+            %}
+          </div>
+          {% for chip in page.hero.floating_chips %}
+            <span class="float-chip float-chip-{{ forloop.index }}"><i class="{{ chip.icon }}"></i> {{ chip.text }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if page.stats %}
+      <div class="stats-strip">
+        {% for stat in page.stats %}
+          <div class="stat reveal">
+            <span class="stat-value gradient-text">{{ stat.value }}</span>
+            <span class="stat-label">{{ stat.label }}</span>
+          </div>
+        {% endfor %}
       </div>
     {% endif %}
+  </section>
 
-    <div class="clearfix">{{ content }}</div>
+  <!-- About -->
+  <section class="home-section" id="about">
+    <div class="section-head reveal">
+      <span class="section-kicker">01 · about</span>
+      <h2 class="section-title">A bit about me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-content reveal">{{ content }}</div>
+      {% if page.currently %}
+        <aside class="now-card reveal">
+          <h3 class="now-title"><span class="status-dot"></span> Right now</h3>
+          <ul class="now-list">
+            {% for item in page.currently %}
+              <li>
+                <i class="{{ item.icon }}"></i>
+                <div>
+                  <span class="now-label">{{ item.label }}</span>
+                  <span class="now-text">{{ item.text }}</span>
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        </aside>
+      {% endif %}
+    </div>
+  </section>
 
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
+  <!-- Spotlight -->
+  {% if page.spotlight %}
+    {% assign spot = page.spotlight %}
+    <section class="home-section" id="spotlight">
+      <div class="section-head reveal">
+        <span class="section-kicker">02 · spotlight</span>
+        <h2 class="section-title">What I'm most proud of</h2>
       </div>
-    {% endif %}
+      <div class="spotlight-card reveal">
+        <div class="spotlight-media">
+          <video controls playsinline preload="none" poster="{{ spot.poster | relative_url }}" aria-label="{{ spot.title }} demo video">
+            <source src="{{ spot.video | relative_url }}" type="video/mp4">
+          </video>
+          <span class="spotlight-badge"><i class="ti ti-player-play"></i> Demo</span>
+        </div>
+        <div class="spotlight-body">
+          <span class="spotlight-label"><i class="ti ti-school"></i> {{ spot.kicker }}</span>
+          <h3 class="spotlight-title">{{ spot.title }}</h3>
+          <p class="spotlight-subtitle">{{ spot.subtitle }}</p>
+          <p class="spotlight-text">{{ spot.text }}</p>
+          <div class="spotlight-metrics">
+            {% for metric in spot.metrics %}
+              <div class="spotlight-metric">
+                <span class="gradient-text">{{ metric.value }}</span>
+                <small>{{ metric.label }}</small>
+              </div>
+            {% endfor %}
+          </div>
+          <div class="chip-row">
+            {% for tech in spot.tech %}
+              <span class="chip">{{ tech }}</span>
+            {% endfor %}
+          </div>
+          <div class="hero-actions">
+            <a class="btn-modern btn-primary-modern" href="{{ spot.url | relative_url }}"><i class="ti ti-book"></i> Read the case study</a>
+            {% if spot.post %}
+              <a class="btn-modern btn-ghost-modern" href="{{ spot.post }}" target="_blank" rel="noopener noreferrer">
+                <i class="ti ti-brand-linkedin"></i> Technical deep dive
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </section>
+  {% endif %}
 
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
+  <!-- Experience -->
+  {% assign experience = site.data.cv | where: 'title', 'Experience' | first %}
+  {% if experience %}
+    <section class="home-section" id="experience">
+      <div class="section-head reveal">
+        <span class="section-kicker">03 · experience</span>
+        <h2 class="section-title">Where I've worked</h2>
+        <a class="section-link" href="{{ '/cv/' | relative_url }}">Full CV <i class="ti ti-arrow-right"></i></a>
+      </div>
+      <ol class="timeline">
+        {% for job in experience.contents limit: page.experience_limit %}
+          <li class="timeline-item reveal">
+            <span class="timeline-dot"><i class="{{ job.icon | default: 'ti ti-briefcase' }}"></i></span>
+            <div class="timeline-card">
+              <span class="timeline-date">{{ job.year }}</span>
+              <h3 class="timeline-role">{{ job.title }}</h3>
+              <p class="timeline-org">{{ job.institution }}</p>
+              {% for item in job.description %}
+                {% unless item.title %}
+                  <p class="timeline-desc">{{ item }}</p>
+                  {% break %}
+                {% endunless %}
+              {% endfor %}
+              {% for item in job.description %}
+                {% if item.title == 'Skills' %}
+                  {% assign chips = item.contents | first | split: ', ' %}
+                  <div class="chip-row">
+                    {% for chip in chips limit: 6 %}
+                      <span class="chip">{{ chip }}</span>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </li>
+        {% endfor %}
+      </ol>
+    </section>
+  {% endif %}
+
+  <!-- Featured projects -->
+  {% if page.featured_projects %}
+    {% assign featured = site.projects | where: 'featured', true | sort: 'featured_rank' %}
+    {% if featured.size > 0 %}
+      <section class="home-section" id="projects">
+        <div class="section-head reveal">
+          <span class="section-kicker">04 · projects</span>
+          <h2 class="section-title">Things I've built</h2>
+          <a class="section-link" href="{{ '/projects/' | relative_url }}">All projects <i class="ti ti-arrow-right"></i></a>
+        </div>
+        <div class="project-grid">
+          {% for project in featured %}
+            {% include project_card.liquid project=project %}
+          {% endfor %}
+        </div>
+      </section>
     {% endif %}
-  </article>
+  {% endif %}
+
+  <!-- Skills -->
+  {% if page.skills %}
+    <section class="home-section" id="skills">
+      <div class="section-head reveal">
+        <span class="section-kicker">05 · toolbox</span>
+        <h2 class="section-title">What I work with</h2>
+      </div>
+      <div class="skills-grid">
+        {% for group in page.skills %}
+          <div class="skill-card reveal">
+            <h3><i class="{{ group.icon }}"></i> {{ group.group }}</h3>
+            <div class="logo-grid">
+              {% for skill in group.items %}
+                {% assign logo = site.data.skill_logos[skill] %}
+                {% if logo %}
+                  <div class="logo-tile" title="{{ skill }}">
+                    <span class="logo-img">
+                      <img src="{{ logo | prepend: 'assets/img/logos/' | relative_url }}" alt="" width="30" height="30" loading="lazy">
+                    </span>
+                    <span class="logo-name">{{ skill }}</span>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+            {% capture text_skills %}{% for skill in group.items %}{% unless site.data.skill_logos[skill] %}<span class="chip">{{ skill }}</span>{% endunless %}{% endfor %}{% endcapture %}
+            {% if text_skills != '' %}
+              <div class="chip-row">{{ text_skills }}</div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  <!-- Testimonials -->
+  {% if page.testimonials %}
+    <section class="home-section" id="testimonials">
+      <div class="section-head reveal">
+        <span class="section-kicker">06 · kind words</span>
+        <h2 class="section-title">What people say</h2>
+        {% if site.data.socials.linkedin_username %}
+          <a
+            class="section-link"
+            href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}/details/recommendations/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >All recommendations <i class="ti ti-arrow-up-right"></i
+          ></a>
+        {% endif %}
+      </div>
+      <div class="testimonial-grid">
+        {% for t in page.testimonials %}
+          <figure class="testimonial-card reveal">
+            <i class="ti ti-quote testimonial-mark"></i>
+            <blockquote>{{ t.quote }}</blockquote>
+            <figcaption>
+              <span class="testimonial-avatar">{{ t.name | slice: 0 }}</span>
+              <span class="testimonial-who">
+                <strong>{{ t.name }}</strong>
+                <small>{{ t.role }}</small>
+              </span>
+            </figcaption>
+          </figure>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  <!-- Moments -->
+  {% if page.moments %}
+    <section class="home-section" id="moments">
+      <div class="section-head reveal">
+        <span class="section-kicker">07 · moments</span>
+        <h2 class="section-title">Off the screen</h2>
+      </div>
+      <div class="moments-strip reveal">
+        {% for moment in page.moments %}
+          <figure class="moment">
+            {% include figure.liquid path=moment.img sizes="260px" alt=moment.caption class="moment-img" %}
+            <figcaption>{{ moment.caption }}</figcaption>
+          </figure>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  <!-- News & latest posts -->
+  {% if page.announcements.enabled or page.latest_posts.enabled %}
+    <section class="home-section" id="updates">
+      <div class="section-head reveal">
+        <span class="section-kicker">08 · updates</span>
+        <h2 class="section-title">What's new</h2>
+      </div>
+      <div class="updates-grid">
+        {% if page.announcements and page.announcements.enabled %}
+          <div class="update-card reveal">
+            <div class="update-head">
+              <h3><i class="ti ti-news"></i> News</h3>
+              <a href="{{ '/news/' | relative_url }}">All <i class="ti ti-arrow-right"></i></a>
+            </div>
+            {% include news.liquid limit=true %}
+          </div>
+        {% endif %}
+        {% if page.latest_posts and page.latest_posts.enabled %}
+          <div class="update-card reveal">
+            <div class="update-head">
+              <h3><i class="ti ti-pencil"></i> Latest posts</h3>
+              <a href="{{ '/blog/' | relative_url }}">Blog <i class="ti ti-arrow-right"></i></a>
+            </div>
+            {% include latest_posts.liquid %}
+          </div>
+        {% endif %}
+      </div>
+    </section>
+  {% endif %}
+
+  <!-- Selected papers -->
+  {% if page.selected_papers %}
+    <section class="home-section" id="publications">
+      <div class="section-head reveal">
+        <span class="section-kicker">09 · research</span>
+        <h2 class="section-title">Selected publication</h2>
+        <a class="section-link" href="{{ '/publications/' | relative_url }}">Publications <i class="ti ti-arrow-right"></i></a>
+      </div>
+      <div class="reveal">{% include selected_papers.liquid %}</div>
+    </section>
+  {% endif %}
+
+  <!-- Contact -->
+  {% if page.social %}
+    <section class="home-section" id="contact">
+      <div class="contact-card reveal">
+        <span class="section-kicker">10 · contact</span>
+        <h2 class="contact-title">Let's build something that <span class="gradient-text">moves</span>.</h2>
+        <p class="contact-text">
+          Working on robots, embodied AI, computer vision or automation? I'd like to hear about it. LinkedIn is the fastest way to reach me.
+        </p>
+        <div class="hero-actions justify-content-center">
+          {% if site.data.socials.linkedin_username %}
+            <a
+              class="btn-modern btn-primary-modern"
+              href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="ti ti-brand-linkedin"></i> Message me on LinkedIn
+            </a>
+          {% endif %}
+          {% if site.data.socials.email %}
+            <a class="btn-modern btn-ghost-modern" href="mailto:{{ site.data.socials.email | encode_email }}">
+              <i class="ti ti-mail"></i> Send an email
+            </a>
+          {% endif %}
+        </div>
+        <div class="contact-social">{% include social.liquid %}</div>
+      </div>
+    </section>
+  {% endif %}
+
+  {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+    {% include newsletter.liquid center=true %}
+  {% endif %}
 </div>

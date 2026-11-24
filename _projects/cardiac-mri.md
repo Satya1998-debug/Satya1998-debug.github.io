@@ -4,6 +4,11 @@ title: Cardiac MRI features
 description: Research thesis, grade 1.0. Extract and visualize cardiac features from MRI, evaluated on NAKO and UK Biobank.
 importance: 2
 category: research
+featured: true
+featured_rank: 3
+icon: ti ti-heartbeat
+period: 2024 – 2025
+tech: [PyTorch, U-Net, PyRadiomics, Streamlit]
 ---
 
 Research thesis with University Hospital Tübingen and ISS, University of Stuttgart (November 2024 – May 2025). Grade 1.0.

@@ -3,6 +3,8 @@
   contents:
     - name: Full Name
       value: Satyabrata Pradhan
+    - name: Current Role
+      value: Software Engineer, <a href='https://neura-robotics.com/'>NEURA Robotics</a>
     - name: Email
       value: <a href='mailto:spradhan143as@gmail.com'>spradhan143as@gmail.com</a>
     - name: Phone
@@ -10,31 +12,166 @@
     - name: Date of Birth
       value: 28th October 1998
     - name: Languages
-      value: English, Hindi, German, Japanese
+      value: English (fluent), German (A2), Japanese (basic), Hindi (native), Oriya (native)
     - name: Nationality
       value: Indian
     - name: Location
       value: Stuttgart, Germany
     - name: LinkedIn
-      value: <a href='https://www.linkedin.com/in/satyabrata-pradhan-00a6b916b/'>satyabrata.pradhan</a>
+      value: <a href='https://www.linkedin.com/in/satyabrata-pradhan-00a6b916b/'>satyabrata-pradhan</a>
+    - name: GitHub
+      value: <a href='https://github.com/Satya1998-debug'>Satya1998-debug</a>
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Software Engineer
+      institution: NEURA Robotics, Metzingen, Germany
+      year: 05.2026 - Current
+      icon: ti ti-robot
+      description:
+        - Developing robotic software applications for the 4NE1 humanoid robot in the Proof-of-Concept team.
+        - Working on high-impact customer projects with 4NE1 and the Neuraverse platform.
+        - Represented NEURA at CIIF 2026 (China International Industry Fair) and took part in the opening of the Munich NeuraGYM with 4NE1 Gen 4.
+
+    - title: Software Developer (Werkstudent)
+      institution: Mercedes-Benz, Stuttgart, Germany
+      year: 10.2025 - 04.2026
+      icon: ti ti-car
+      description:
+        - Developed a computer-vision object detection and pose refinement pipeline for the robotics team using PyTorch.
+        - title: Skills
+          contents:
+            - PyTorch, Computer Vision, Object Detection, Pose Refinement
+
+    - title: Software Developer (Werkstudent)
+      institution: Robert Bosch GmbH, Ludwigsburg, Germany
+      year: 09.2024 - 08.2025
+      icon: ti ti-cpu
+      description:
+        - Researched and developed a 3-axis pan-tilt robot arm for Linux driver sensor test automation on a Raspberry Pi.
+        - Integrated real-time control with Raspberry Pi, Python and C
+        - Integrated the arm control into the Jenkins-based CI pipeline
+        - Automated Raspberry Pi image customization using the open-source SD card manager (SDM)
+        - title: Skills
+          contents:
+            - Python, C, Raspberry Pi, Linux, Jenkins, CI/CD, SDM, CMake, Git
+
+    - title: Software Developer (Werkstudent)
+      institution: Robert Bosch GmbH, Stuttgart, Germany
+      year: 10.2023 - 03.2024
+      icon: ti ti-volume
+      description:
+        - Developed a Microsoft Azure pipeline for the audio data-loop of siren detection in automated driving.
+        - Resolved ROS and Python issues for the siren classifier and trainer modules.
+        - Optimized the Docker setup for the Bazel migration of the existing software architecture.
+        - title: Skills
+          contents:
+            - Python, ROS, Docker, Microsoft Azure DevOps, CI/CD, Bazel, Linux
+
+    - title: Student Research Assistant (Wissenschaftliche Hilfskraft)
+      institution: Institut für Systemdynamik (ISYS), University of Stuttgart
+      year: 07.2023 - Current
+      icon: ti ti-route
+      description:
+        - Developing ROS packages for sequential logic control systems and behaviour trees for RB-Vogui XL mobile robots.
+        - title: Skills
+          contents:
+            - ROS, Behaviour Trees, Mobile Robotics
+
+    - title: Student Assistant (Studentische Hilfskraft)
+      institution: SimTech - Cluster of Excellence, University of Stuttgart
+      year: 02.2025 - Current
+      icon: ti ti-math-function
+      description:
+        - Developed Julia-based port-Hamiltonian packages for system modeling
+        - Implemented CI/CD pipelines with GitHub Actions for automated testing
+        - Contributed to open-source Julia packages for system and control theory
+        - title: Skills
+          contents:
+            - Julia, GitHub Actions, CI/CD, Open-Source Contributions, Advanced Control Theory, Advanced Mathematics
+
+    - title: Student Assistant (Studentische Hilfskraft)
+      institution: IPVS - Institut für Parallele und Verteilte Systeme, University of Stuttgart
+      year: 09.2024 - 01.2025
+      icon: ti ti-bolt
+      description:
+        - Formulated the project proposal for DC-enabled microgrids in Africa (Ghana, Nigeria and Mozambique).
+        - Core member of the Project Design and Technical team.
+        - Developed presentational mind-maps using Miro.
+        - RENergetic project proposal issue fixing, testing and development of user-manuals for various pilots, users and clients.
+        - Functional testing of the RENergetic web interface.
+        - title: Skills
+          contents:
+            - Microsoft Office, Miro, Unit Testing, Functional Testing
+
+    - title: Student Research Assistant (Wissenschaftliche Hilfskraft)
+      institution: ILA - Institut für Luftfahrtantriebe, University of Stuttgart
+      year: 10.2023 - 06.2024
+      icon: ti ti-plane
+      description:
+        - Designed non-linear PID controllers for highly-coupled control systems in MATLAB/Simulink for the Altitude Test Facility (ATF) Stuttgart.
+        - Automated the high-altitude test facility for aerospace applications
+        - Reviewed and compared the various ATF facilities in Germany
+        - title: Skills
+          contents:
+            - MATLAB, Simulink, Control Systems, Nonlinear-PID Controllers
+
+    - title: Student Research Assistant (Wissenschaftliche Hilfskraft)
+      institution: IRS - Institut für Raumfahrtsysteme, University of Stuttgart
+      year: 11.2022 - 08.2023
+      icon: ti ti-satellite
+      description:
+        - Implemented lossless data compression (Rice encoder) in C for the flight software of the JAXA DESTINY+ asteroid mission.
+        - The encoder is the compression step in the link between the satellite and the ground station
+        - title: Skills
+          contents:
+            - C, Data Encoding, Communication Protocols, Flight Software
+
+    - title: Senior Software Engineer
+      institution: Research and Development, Huawei Technologies India Pvt. Ltd., India
+      year: 07.2020 - 08.2022
+      icon: ti ti-world-search
+      description:
+        - Web development with RESTful APIs in Python for the Huawei Petal search engine.
+        - Built scalable data ingestion pipelines using web scraping and crawling of third-party sources.
+        - Designed and delivered end-to-end SparkleSearch Knowledge Graph-based projects for Petal Search.
+        - Worked on Elasticsearch, Apache Kafka and Redis in 8 product flows and 1 cross-platform project.
+        - Contributed more than 28K lines of code with good quality.
+        - Developed automated tools for Query Identifier & Pattern Generator to cater to user search intentions.
+        - Carried out performance evaluation using metrics in Prometheus.
+        - title: Skills
+          contents:
+            - Python, Django, Flask, FastAPI, REST APIs, Elasticsearch, Apache Kafka, Redis, Git, BeautifulSoup, Prometheus
+
+    - title: Research Intern
+      institution: Advanced Training Development Centre, IIT Kharagpur, India
+      year: 11.2018 - 12.2018
+      icon: ti ti-car
+      description:
+        - Electric vehicle modelling, simulation and performance analysis using MATLAB/Simulink.
+        - title: Skills
+          contents:
+            - MATLAB, Simulink, Stateflow, Simscape
 
 - title: Education
   type: time_table
   contents:
     - title: M.Sc. in Electrical Engineering (Specialization - Smart Systems)
-      institution: University of Stuttgart, Germany | Grade - 1.6
-      year: 10.2022 - Current
+      institution: University of Stuttgart, Germany | Grade - 1.6 | Rank 1
+      year: 10.2022 - 09.2026
       description:
-        - Faculty-5 of Computer Science, Electrical Engineering and Information Technology
+        - Faculty 5 of Computer Science, Electrical Engineering and Information Technology
         - title: Master Thesis
           contents:
-            - RobotDog Training for Indoor Navigation via Human-Robot Collaboration and Integrated AI
+            - "RoboDog Guide: Human-Robot Teaming for Indoor Navigation"
         - title: Research Thesis
           contents:
-            - A Framework for Cardiac MRI Feature Extraction And Visualization - Evaluation in NAKO and UK Biobank
+            - A Framework for Cardiac MRI Feature Extraction And Visualization - Evaluation in NAKO and UK Biobank (Grade 1.0)
         - title: Courses
           contents:
             - Deep Learning (DL)
+            - Robotics
             - Advanced Mathematics for Signal and Information Processing (AM)
             - Software Engineering in Real-time Systems (SERTS)
             - Industrial Automation Systems (IAS)
@@ -45,28 +182,29 @@
             - Scientific Writing and Research (FÜSQ)
         - title: Industrial Automation Master Lab Course
           contents:
-            - Experiment 1 :- Introduction to CAN, CANScope, CANoe to understand CAN communication and developed CAPL code for CAN communication for car door control system.
-            - Experiment 2 :- Real-time Programming with ADA for fluid control system
-            - Experiment 3 :- Introduction to Microcontroller (dsPIC30F4011) Programming using Microchip C30 and C language
-            - Experiment 4 :- Programmable Logic Controller (PLC) Programming for Storage Rack Control System using Siemens TIA Portal
-            - Experiment 5 :- Rapid Prototyping with ASCET-SD for Wiper Control System and Pit Arm Control System of the car
-            - Experiment 6 :- Test automation with Hardware-in-the-Loop on AUTOSAR demonstrator for car door and light ECU simulation
+            - Experiment 1 - Introduction to CAN, CANScope and CANoe; CAPL code for CAN communication in a car door control system.
+            - Experiment 2 - Real-time programming with ADA for a fluid control system
+            - Experiment 3 - Microcontroller (dsPIC30F4011) programming using Microchip C30 and C
+            - Experiment 4 - PLC programming for a storage rack control system using Siemens TIA Portal
+            - Experiment 5 - Rapid prototyping with ASCET-SD for the wiper and pit arm control systems of a car
+            - Experiment 6 - Test automation with Hardware-in-the-Loop on an AUTOSAR demonstrator for car door and light ECU simulation
 
     - title: Exchange Semester in Computer Science
-      institution: Tokyo Institute of Technology, Japan
+      institution: Tokyo Institute of Technology (Science Tokyo), Japan
       year: 04.2024 - 08.2024
       description:
-        - Selected for Academic Course Access Program (ACAP)
-        - Sponsored by Baden-Württemberg-Stiftung through BWS-Stipendium
+        - Selected for the Academic Course Access Program (ACAP)
+        - Sponsored by the Baden-Württemberg-Stiftung through the BWS-Stipendium
         - title: Courses
           contents:
             - Machine Learning for Innovation
             - Computer Vision
+            - Data Analytics
             - Mathematical Theory of Programming
             - Advanced Topics in Artificial Intelligence
 
     - title: B.Tech. in Electrical Engineering
-      institution: National Institute of Technology, Silchar, India | Grade - 1.3
+      institution: National Institute of Technology, Silchar, India | Grade - 1.3 (German scale) | Rank 3
       year: 07.2016 - 05.2020
       description:
         - title: Bachelor Thesis
@@ -84,7 +222,6 @@
             - Control Systems - I,II
             - Signals and Systems
             - Switchgear and Protection
-            - Electrical Machines - I,II
             - Analog Electronics
             - Digital Electronics
             - Digital Signal Processing (DSP)
@@ -93,201 +230,165 @@
             - Data Structures and Algorithms (DSA)
             - Database Management Systems (DBMS)
 
-- title: Projects
+- title: Theses
   type: time_table
   contents:
-    - title: RobotDog Training for Indoor Navigation via Human-Robot Collaboration and Integrated AI [Master Thesis]
-      year: 06.2024 - Current
-      institution: Institut für Automatisierungstechnik und Softwaresysteme (IAS), Universität Stuttgart
+    - title: "RoboDog Guide: Human-Robot Teaming for Indoor Navigation [Master Thesis]"
+      year: 11.2025 - Current
+      institution: Institute of Industrial Automation and Software Engineering (IAS), University of Stuttgart | Supervisors - Prof. Andrey Morozov, Joachim Nilsen Grimstad
       description:
-        - Developing a framework for training a quadruped robot (RobotDog) for indoor navigation.
-        - Integrating human-robot collaboration techniques with AI for enhanced navigation.
-        - Integrating existing SLAM, camera, and motion estimation algorithms for real-time navigation.
-        - Integrating existing real-time speech interaction module for user commands and feedback, developed using LLMs.
-        - Implementing a real-time control system for the robot using ROS and Python.
+        - Turned a Unitree Go1 into a speech-driven indoor guide that handles doors on its planned route safely. <a href='/projects/robotdog-indoor-navigation/'>Project page</a>
+        - Layer I (agent) - offline LangGraph workflow with local Qwen models, RAG over web-scraped university data, Vosk speech recognition and pyttsx3/eSpeak speech output.
+        - Layer II (bridge) - approved tool calls become ROS commands via roslibpy and the rosbridge WebSocket, with a custom navigation service, human approval before navigation and structured execution feedback.
+        - Layer III (robot) - integrated a Jetson AGX Orin, RealSense D455 and RoboSense LiDAR with the Go1; LIO-SAM, AMCL, move_base, NavfnROS and TEB for mapping, localisation and planning.
+        - Door perception - fine-tuned YOLO11m (single doors, double doors, handles) and TensorRT-accelerated Depth Anything V2 for glass doors; RGB-D back-projection and RANSAC plane fitting for door centre, width and normal. mAP@0.5 of 0.901 at 5 Hz on the Jetson Orin.
+        - Door Coordinator state machine - pre-door pose, door state and passability check, human-in-the-loop with VLM scene understanding, post-door pose, resume goal.
         - title: Skills
           contents:
-            - Python, ROS, SLAM, LLMs, Real-time Control Systems, Human-Robot Collaboration
+            - Python, ROS Noetic, LangGraph, Ollama, RAG, YOLO11, Depth Anything V2, TensorRT, Open3D, SLAM, NVIDIA Jetson Orin
 
     - title: A Framework for Cardiac MRI Feature Extraction And Visualization [Research Thesis]
       year: 11.2024 - 05.2025
-      institution: Universitätsklinikum Tübingen & ISS, Universität Stuttgart | Grade - 1.0
+      institution: Universitätsklinikum Tübingen & ISS, University of Stuttgart | Grade - 1.0
       description:
         - Developed a framework for cardiac feature extraction and visualization of cardiac MRI data.
         - Evaluated the framework using datasets from NAKO and UK Biobank.
-        - Integrated Deep learning models like U-Net for segmentation, MOPNet for motion estimation, and DeepStrain's Green Lagrange Strain Computation module for strain tensor calculation.
-        - Used Open-source framework Pyradiomics for radiomics feature extraction.
-        - Features like ventricular volumes, diameters, stroke volumes, ejection fractions, and myocardial strain were extracted and visualized using AHA Bullseye.
-        - Interactive GUI using Streamlit for visualization and analysis of cardiac MRI data.
+        - Integrated deep learning models like U-Net for segmentation, MOPNet for motion estimation, and DeepStrain's Green-Lagrange strain module for strain tensor calculation.
+        - Used the open-source framework PyRadiomics for radiomics feature extraction.
+        - Features like ventricular volumes, diameters, stroke volumes, ejection fractions and myocardial strain were extracted and visualized using the AHA bullseye.
+        - Interactive dashboard in Streamlit to facilitate clinical diagnosis and research.
         - title: Skills
           contents:
-            - Python, PyTorch, TensorFlow, Pyradiomics, Streamlit, Plotly, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+            - Python, PyTorch, TensorFlow, PyRadiomics, Streamlit, Plotly, Pandas, NumPy, Scikit-learn
 
     - title: Maximum Power Point Tracking (MPPT) based Charge Controller [Bachelor Thesis]
       year: 07.2019 - 05.2020
       institution: Department of Electrical Engineering, National Institute of Technology, Silchar, India
       description:
-        - Designed and implemented an MPPT-based charge controller for solar power systems.
-        - Partial shading conditions were considered for the MPPT algorithm.
-        - Developed a novel curve scanning-based MPPT algorithm to optimize energy harvesting considering the multi-modal I-V characteristics and P-V curves.
-        - Implemented the algorithm using MATLAB/Simulink for simulation and analysis to adjust the duty cycle of the DC-DC converter for converging at Global Maximum Power Point (GMPP).
-        - Conducted experiments and hardware verification to validate the performance of the MPPT algorithm under varying environmental conditions.
+        - Designed and implemented an MPPT-based charge controller for solar power systems under partial shading.
+        - Developed a novel curve-scanning MPPT algorithm that handles the multi-modal I-V and P-V curves.
+        - Simulated in MATLAB/Simulink, adjusting the duty cycle of the DC-DC converter to converge at the Global Maximum Power Point (GMPP).
+        - Validated the algorithm on hardware under varying environmental conditions.
         - Published an IEEE paper on the MPPT algorithm.
         - title: Skills
           contents:
             - C, MATLAB, Simulink, MPPT Algorithms, Solar PV Systems
 
-- title: Experience
+- title: Projects & Competitions
   type: time_table
   contents:
-    - title: Software Developer (Werkstudent)
-      institution: Robert Bosch GmbH, Ludwigsburg, Germany
-      year: 09.2024 - Current
-      description:
-        - Developed 3-axis Pan-Tilt Robot Arm for Linux Driver Sensor Test Automation
-        - Integrated real-time control with Raspberry Pi, Python and C
-        - Integrated the robot module to CI Jenkins pipelines
-        - Customization of the Raspberry Pi image using Open-Source SDM (SD card manager)
-        - title: Skills
-          contents:
-            - Python, C, Raspberry Pi, Linux, Jenkins, CI/CD, SDM, CMake, Git
+    - title: JASS 2026 - Joint Advanced Summer School
+      year: 2026
+      institution: With Prof. Bernd Brügge
 
-    - title: Software Developer (Werkstudent)
-      institution: Robert Bosch GmbH, Stuttgart, Germany
-      year: 10.2023 - 03.2024
+    - title: Hack-Nation 2026 - Global AI Hackathon - CallPilot
+      year: 02.2026
+      institution: In collaboration with the MIT Sloan AI Club
       description:
-        - Developed Azure pipeline for siren detection in automated driving for the audio-data loop.
-        - Resolved ROS and Python issues for the Siren classifier and trainer modules.
-        - Optimized Docker setup for Bazel migration of existing software architecture.
-        - title: Skills
-          contents:
-            - Python, ROS, Docker, Microsoft Azure DevOps, CI/CD, Bazel, Linux
+        - Built CallPilot, a voice-based agent that books appointments end to end, using ElevenLabs speech AI, LangGraph and the Google Maps / Places and Calendar APIs. <a href='https://github.com/Satya1998-debug/CallPilot'>Code</a>
 
-    - title: Student Assistant (studentische hilfskraft)
-      institution: SimTech - Cluster of Excellence, University of Stuttgart
-      year: 02.2025 - Current
+    - title: Ferienakademie 2025, Sarntal, Italy
+      year: 09.2025
+      institution: Sponsored by TU München, FAU Erlangen-Nürnberg and University of Stuttgart
       description:
-        - Developed Julia-based port-Hamiltonian packages for system modeling
-        - Implemented CI/CD pipelines with GitHub Actions for automated testing
-        - Contributed to Open-Source Julia packages for system and control theory
-        - title: Skills
-          contents:
-            - Julia, GitHub Actions, CI/CD, Open-Source Contributions, Advanced Control Theory, Advanced Mathematics
+        - Worked in a team of 8 to develop a drone-based real-time monitoring system for Linova Software GmbH.
 
-    - title: Student Assistant (studentische hilfskraft)
-      institution: IPVS - Institut für Parallele und Verteilte Systeme , University of Stuttgart
-      year: 09.2024 - 01.2025
+    - title: Behaviour Cloning using Transformers for Robot Manipulation
+      year: 07.2025
+      institution: Personal project
       description:
-        - Formulated the project proposal for a DC-enabled microgrids in Africa (Ghana, Nigeria and Mozambique).
-        - Core member of the Project Design and Technical team.
-        - Developed presentational mind-maps using Miro.
-        - REnergetic project proposal issue fixing, testing and development of user-manual for various Pilots, Users & Clients.
-        - Functional testing of RENergetic web-interface.
-        - title: Skills
-          contents:
-            - Microsoft Office, Miro, Unit Testing, Functional Testing
+        - Developed a behaviour cloning (imitation learning) policy based on Behaviour Transformers with the LeRobot framework on the PushT dataset, using PyTorch.
 
-    - title: Student Assistant (studentische hilfskraft)
-      institution: ILA - Institut für Luftfahrtantriebe, University of Stuttgart
-      year: 11.2023 - 08.2024
+    - title: Hack NOW! 2024 - Eco-Riders
+      year: 09.2024
+      institution: NTT DATA Business Solutions with Silbury Deutschland GmbH, Bonn
       description:
-        - Automated High-Altitude Test Facility for aerospace applications
-        - Designed nonlinear PID controllers for precise control systems
-        - Reviewed and compared the various ATF facilities in Germany
-        - title: Skills
-          contents:
-            - MATLAB, Simulink, Control Systems, Nonlinear-PID Controllers
+        - Built a web API to optimize fan carpooling using location matching and rewards to reduce CO₂ emissions and traffic.
+        - Pre-finalist, 3rd prize.
 
-    - title: Student Assistant (studentische hilfskraft)
-      institution: IRS - Institut für Raumfahrtsysteme, University of Stuttgart
-      year: 11.2022 - 10.2023
+    - title: Autonomous RC Racing (F1TENTH) - School for Talents
+      year: 02.2024 - 06.2024
+      institution: University of Stuttgart
       description:
-        - Built Rice Encoder algorithm in C for the Flight Software for Japanese asteroid mission Destiny+
-        - The algorithm establishes the communication between the satellite and the ground station
-        - title: Skills
-          contents:
-            - C, Data Encoding, Communication Protocols, Flight Software
+        - Assembled and programmed an autonomous RC vehicle to the specifications of the F1TENTH competition series and raced it against other teams.
 
-    - title: Senior Software Engineer
-      institution: Huawei Technologies, India
-      year: 07.2020 - 08.2022
+    - title: RoboWars - Technoesis, NIT Silchar
+      year: 12.2018 - 02.2019
+      institution: National Institute of Technology, Silchar
       description:
-        - Web development with REST-based API integration for Huawei Petal search engine using Python.
-        - Developed Data Ingestion systems to crawl third-party websites using Web scraping and crawling.
-        - End-to-end development of Knowledge Graph-based projects for the Petal search GUI platform.
-        - Contributed more than 28K Lines-of-Code in 8 Product flows and 1 cross-platform project with good quality.
-        - Developed automated tools for Query Identifier & Pattern Generator to cater to user search intentions.
-        - Performed system integration with Elasticsearch, Apache Kafka, and Redis cache system.
-        - Carried out performance evaluation using metrics in Prometheus.
-        - title: Skills
-          contents:
-            - Python, Django, Flask, FastAPI, REST APIs, Elasticsearch, Apache Kafka, Redis, Git, BeautifulSoup, Prometheus, Pandas, NumPy
-
-    - title: Summer Analytics Intern
-      institution: Consultancy & Analytics Club, Indian Institute of Technology (IIT) Guwahati, India
-      year: 05.2020 - 06.2020
-      description:
-        - Invested 250+ hours in the Data Science Bootcamp course.
-        - Learned basic to intermediate concepts in the domain of Data Science.
-        - Covered topics such as Statistics, Data Preprocessing, Feature selection & engineering, Data Visualization etc.
-        - Implemented Machine Learning algorithms like Linear & Logistic regression, decision trees, SVM, etc.
-        - Hands-on training on Neural Networks and Deep Learning using real-time datasets.
-        - title: Skills
-          contents:
-            - Python, Pandas, NumPy, Scikit-learn, Scipy, Matplotlib, Seaborn, TensorFlow, PyTorch
-
-    - title: Research Intern
-      institution: IIT Kharagpur, India
-      year: 11.2018 - 12.2018
-      description:
-        - Electric Vehicle modeling and simulation using MATLAB/Simulink
-        - title: Skills
-          contents:
-            - MATLAB, Simulink, Stateflow, Simscape
+        - Built Arduino-controlled path-following combat robots with autonomous navigation.
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2024
       items:
-        - Baden-Württemberg-Stipendium (Exchange to Tokyo Tech)
+        - Baden-Württemberg-Stipendium - exchange semester at Tokyo Institute of Technology (Science Tokyo)
         - Hack NOW! Pre-Finalist - 3rd Prize (NTT DATA + Silbury GmbH)
-        - Deutschlandstipendium (University of Stuttgart in Collaboration with Christian Bürkert Stiftung)
-    - year: 2023
+    - year: 2023 - 2025
       items:
-        - Deutschlandstipendium (University of Stuttgart in Collaboration with Vishay Semiconductor GmbH)
+        - Deutschlandstipendium - one of 157 scholarships awarded by the University of Stuttgart, sponsored by the Federal Ministry of Education & Research, Vishay Semiconductor GmbH and Christian Bürkert Stiftung
     - year: 2020
       items:
-        - Huawei Future Star 2020 - Best Innovative Performer and Best Team Award
+        - Huawei Future Star 2020 - Best Innovative Performer (15,000+ lines of code in 6 months with minimal defects); led a 35-member team to the Best Team Award 2020
+        - First Runner-Up (2nd position), Anveshan 2020 Student Research Convention (East Zone), Association of Indian Universities
+        - Best Proposal Award among 100 proposals, Anveshan 2.0 at NIT Silchar - "Photovoltaic Based Sustainable Controlled Electrical Heating for Tea Processing"
+    - year: 2014 - 2015
+      items:
+        - Chief Minister's Trophy (Prativa Anweshana, Odisha Lalit Kala Academy) and Governor's Trophy, Odisha - excellence in art and painting
 
 - title: Publications
   type: list
   contents:
     - <a href='https://ieeexplore.ieee.org/document/9297794'>A. Sen, S. Pradhan and A. Kumar, "A Novel Curve Scanning Based MPPT Algorithm Under Partial Shading Conditions", 2020 IEEE First International Conference at STPEC 2020. doi - 10.1109/STPEC49749.2020.9297794</a>
 
-- title: Skills
+- title: Technical Skills
   type: list
   contents:
-    - Programming Languages - Python (3+ years), C (1+ years), C++ (6 months), Julia (6 months)
-    - Frameworks & Libraries - ROS, TensorFlow, PyTorch, Flask, Django, FastAPI, REST APIs, OpenCV, Pandas, NumPy, Scikit-learn, Matplotlib, Plotly, Seaborn, Streamlit
-    - Tools - Git, Docker, Jenkins, GitHub Actions, Microsoft Azure DevOps, Bazel, Prometheus, CMake, SDM, MATLAB, Simulink
+    - Programming Languages - Python, C, C++, Julia, MATLAB
+    - Robotics - ROS, ROS2, SLAM, Behaviour Trees, NVIDIA Jetson, Raspberry Pi
+    - AI & Computer Vision - PyTorch, TensorFlow, OpenCV, Open3D, BlenderProc, Machine Learning, Deep Learning
+    - Agentic AI - LangChain, LangGraph, MCP, LLMs, RAG
+    - Tools & DevOps - Git, Docker, Jenkins, GitHub Actions, Microsoft Azure DevOps, Bazel, CMake, Simulink
+    - Backend & Data - Flask, Django, FastAPI, Streamlit, Elasticsearch, Kafka, Redis
     - Operating Systems - Linux (Ubuntu), Windows, macOS
-    - Other Tools - Canva, Miro
-    - Databases - Elasticsearch
-    - Other Skills - SLAM, LLMs, Human-Robot Collaboration (exploring and actively learning ...)
 
-- title: Research Areas for Interest and Exploration
+- title: Workshops and Seminars
+  type: time_table
+  contents:
+    - title: Computer Vision Boot Camp with PyTorch and TensorFlow
+      institution: Udemy (online)
+      year: 06.2025
+      description:
+        - CNNs, object detection and image segmentation through projects like face recognition and deployment.
+    - title: Data Science Boot Camp
+      institution: Consultancy & Analytics Club, IIT Guwahati, India
+      year: 05.2020 - 07.2020
+      description:
+        - 250+ hours of data science, statistics, machine learning and neural networks on Kaggle datasets using Scikit-learn, Matplotlib and TensorFlow.
+    - title: Biped Robotics Workshop
+      institution: CETPA Infotech, Technoesis NIT Silchar
+      year: 02.2018
+      description:
+        - Built a Bluetooth-controlled mobile robot using an ATmega16 microcontroller.
+
+- title: Extra-curricular Activities
   type: list
   contents:
-    - Robotics & Autonomous Systems
-    - Human-Robot Collaboration
-    - AI Integration with Robotic Perception, Decision making and Navigation
-    - Deep Learning for Medical Imaging and other applications
-    - Large Language Models (LLMs) and recent advancements
+    - Mentor in the Buddy Program, Internationales Zentrum, Faculty 5, University of Stuttgart (since 09.2024)
+    - Peer Mentor, University of Stuttgart (since 10.2024) - info sessions, catch-ups, BBQs and talks for international Electrical Engineering and Computer Science students
+    - Senior Under Officer, National Cadet Corps (NCC), India (05.2016 - 01.2020) - C certificate
+
+- title: Research Interests
+  type: list
+  contents:
+    - Robotics & autonomous systems, including humanoids and quadrupeds
+    - Human-robot collaboration
+    - Agentic AI and LLMs for robot perception, decision making and navigation
+    - Computer vision and deep learning, including medical imaging
 
 - title: Other Interests
   type: list
   contents:
-    - Peer mentoring & community building for international students
-    - Hiking, sketching, Bike riding, and exploring new places
-    - Singing, dancing, and listening to music
+    - Hiking, sketching, bike riding and exploring new places
+    - Singing, dancing and listening to music

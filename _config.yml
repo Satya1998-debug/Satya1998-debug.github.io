@@ -9,13 +9,18 @@ last_name: Pradhan
 contact_note: >
   Reach me out on LinkedIn with just one click!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Satyabrata Pradhan. M.Sc. student in Electrical Engineering at the University of Stuttgart, working on robotics, medical imaging, and automation software.
+  Satyabrata Pradhan. Software engineer at NEURA Robotics and M.Sc. Electrical Engineering student at the University of Stuttgart, working on robotics, computer vision, and agentic AI.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+footer_role: Robotics software engineer · Stuttgart, Germany
+keywords: Satyabrata Pradhan, robotics, software engineer, NEURA Robotics, humanoid, computer vision, ROS, LLM, agentic AI, University of Stuttgart # add your own keywords or leave empty
+cv_pdf: CV_satya_25_merged.pdf # CV file in assets/pdf/ (or a full URL), used by the home page and the cv page
+nav_cta: # highlighted button at the end of the navbar
+  text: Let's talk
+  url: /#contact
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://Satya1998-debug.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -46,14 +51,14 @@ repo_trophies:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1080px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -62,9 +67,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://satya1998-debug.github.io/assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -192,6 +197,7 @@ exclude:
   - _books/the_godfather.md
   - _news/announcement_7.md
   - _pages/dropdown.md
+  - "*.pages"
 keep_files:
   - CNAME
   - .nojekyll
@@ -386,7 +392,7 @@ enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: true # enables displaying social links in the navbar on the about page
+enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
@@ -441,7 +447,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
   highlightjs:
     integrity:
       css:
