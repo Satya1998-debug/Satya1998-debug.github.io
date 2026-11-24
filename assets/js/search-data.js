@@ -9,7 +9,21 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
+  },{id: "nav-projects",
+          title: "projects",
+          description: "Research, industry and hackathon work in robotics, computer vision, medical imaging and automation.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "Experience, education, projects and awards at a glance.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
@@ -25,17 +39,10 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "This section highlights my Git Repositories and Git Users.",
+          description: "Code from my thesis, hackathons, research and the courses I taught myself, all on GitHub.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "Download for PDF version.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "post-ferienakademie-2025-a-once-in-a-lifetime-experience-in-south-tyrol",
         
@@ -59,9 +66,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/Cultureshock/";
           
         },
-      },{id: "post-deutschland-stipdendium-the-german-national-scholarship",
+      },{id: "post-deutschlandstipendium-the-german-national-scholarship",
         
-          title: "Deutschland Stipdendium (The German National Scholarship)",
+          title: "Deutschlandstipendium (The German National Scholarship)",
         
         description: "The scholarship that changed my life.",
         section: "Posts",
@@ -70,71 +77,107 @@ ninja.data = [{
             window.location.href = "/blog/2024/Deutschlandstipendium/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-got-nominated-for-the-hack-now-ntt-data-solutions-computer-hackathon-at-bonn-germany",
+      },{id: "news-got-nominated-for-the-hack-now-ntt-data-solutions-computer-hackathon-at-bonn-germany",
           title: 'Got nominated for the HACK NOW!! NTT Data Solutions :computer: hackathon at Bonn,...',
           description: "",
           section: "News",},{id: "news-got-nominated-for-acap-abroad-exchange-semester-at-science-tokyo-japan-previously-tokyo-institute-of-technology-smile-tada",
           title: 'Got nominated for ACAP Abroad Exchange Semester at Science Tokyo, Japan (previously, Tokyo...',
           description: "",
-          section: "News",},{id: "news-got-slected-for-baden-württemberg-stipendium-for-the-purpose-of-abroad-study-in-tokyo-japan",
-          title: 'Got slected for Baden-Württemberg Stipendium for the purpose of abroad study in Tokyo,...',
+          section: "News",},{id: "news-got-selected-for-baden-württemberg-stipendium-for-the-purpose-of-abroad-study-in-tokyo-japan",
+          title: 'Got selected for Baden-Württemberg Stipendium for the purpose of abroad study in Tokyo,...',
           description: "",
           section: "News",},{id: "news-got-recognized-as-a-mentor-in-the-peer-mentoring-program-from-the-internationales-zentrum-iz-university-of-stuttgart-awarded-the-certificate-of-appreciation-blush",
           title: 'Got recognized as a Mentor in the Peer-Mentoring Program from the Internationales Zentrum...',
           description: "",
-          section: "News",},{id: "news-got-selected-for-ferienakademie-2025-for-the-holiday-academy-stay-at-sartal-italy-smile-tada",
-          title: 'Got selected for Ferienakademie 2025 for the Holiday Academy stay at Sartal, Italy...',
+          section: "News",},{id: "news-got-selected-for-ferienakademie-2025-for-the-holiday-academy-stay-at-sarntal-italy-smile-tada",
+          title: 'Got selected for Ferienakademie 2025 for the Holiday Academy stay at Sarntal, Italy...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "news-back-from-ferienakademie-2025-in-sarntal-where-our-team-of-eight-built-a-drone-based-real-time-monitoring-system-for-linova-software-mountain",
+          title: 'Back from Ferienakademie 2025 in Sarntal, where our team of eight built a...',
+          description: "",
+          section: "News",},{id: "news-started-as-a-werkstudent-at-mercedes-benz-working-on-computer-vision-object-detection-and-pose-refinement-for-the-robotics-team-car",
+          title: 'Started as a Werkstudent at Mercedes-Benz, working on computer-vision object detection and pose...',
+          description: "",
+          section: "News",},{id: "news-started-my-master-thesis-robodog-guide-at-ias-university-of-stuttgart-an-llm-driven-quadruped-that-guides-people-indoors-dog",
+          title: 'Started my master thesis RoboDog Guide at IAS, University of Stuttgart: an LLM-driven...',
+          description: "",
+          section: "News",},{id: "news-took-part-in-hack-nation-2026-a-global-ai-hackathon-in-collaboration-with-the-mit-sloan-ai-club-rocket",
+          title: 'Took part in Hack-Nation 2026, a global AI hackathon in collaboration with the...',
+          description: "",
+          section: "News",},{id: "news-joined-neura-robotics-as-a-software-engineer-building-robot-applications-for-the-4ne1-humanoid-in-the-proof-of-concept-team-robot-tada",
+          title: 'Joined NEURA Robotics as a Software Engineer, building robot applications for the 4NE1...',
+          description: "",
+          section: "News",},{id: "news-shared-my-path-into-robotics-from-tokyo-to-the-4ne1-poc-team-at-neura-including-representing-neura-at-ciif-2026-in-china-and-the-munich-neuragym-opening-with-4ne1-gen-4-robot",
+          title: 'Shared my path into robotics, from Tokyo to the 4NE1 PoC team at...',
+          description: "",
+          section: "News",},{id: "news-published-the-demo-video-and-technical-deep-dive-of-my-master-s-thesis-robodog-guide-a-unitree-go1-that-guides-people-indoors-and-handles-doors-safely-dog",
+          title: 'Published the demo video and technical deep dive of my master’s thesis, RoboDog...',
+          description: "",
+          section: "News",},{id: "projects-behaviour-cloning-with-transformers",
+          title: 'Behaviour cloning with transformers',
+          description: "A modified Behavior Transformer (BeT) policy for the PushT manipulation task, trained with Hugging Face LeRobot.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/behaviour-cloning-transformers/";
+            },},{id: "projects-callpilot",
+          title: 'CallPilot',
+          description: "Hack-Nation 2026. A voice agent that finds a nearby provider, checks your calendar and books the appointment for you.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/callpilot/";
+            },},{id: "projects-cardiac-mri-features",
+          title: 'Cardiac MRI features',
+          description: "Research thesis, grade 1.0. Extract and visualize cardiac features from MRI, evaluated on NAKO and UK Biobank.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/cardiac-mri/";
+            },},{id: "projects-eco-riders-carpooling",
+          title: 'Eco-Riders carpooling',
+          description: "Hack NOW! 2024 pre-finalist, 3rd prize. A web API that matches fans for carpooling and rewards them for cutting CO₂.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/eco-riders-hackathon/";
+            },},{id: "projects-autonomous-rc-racing-f1tenth",
+          title: 'Autonomous RC racing (F1TENTH)',
+          description: "University of Stuttgart School for Talents. Assembling and programming a 1:10 autonomous race car to F1TENTH rules.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/f1tenth-autonomous-racing/";
+            },},{id: "projects-drone-based-real-time-monitoring",
+          title: 'Drone-based real-time monitoring',
+          description: "Ferienakademie 2025 in Sarntal. A team of eight building a real-time drone monitoring system for Linova Software GmbH.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/ferienakademie-drone-monitoring/";
+            },},{id: "projects-mppt-under-partial-shading",
+          title: 'MPPT under partial shading',
+          description: "Bachelor&#39;s thesis and IEEE STPEC 2020 paper. A curve-scanning tracker that finds the global maximum on a multi-peak P–V curve.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/projects/mppt-charge-controller/";
+            },},{id: "projects-pan-tilt-rig-for-sensor-tests",
+          title: 'Pan-tilt rig for sensor tests',
+          description: "Werkstudent work at Bosch. A 3-axis pan-tilt arm that aims sensors under test, driven from a Raspberry Pi and wired into Jenkins.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+              window.location.href = "/projects/pan-tilt-sensor-test/";
+            },},{id: "projects-knowledge-graph-for-petal-search",
+          title: 'Knowledge graph for Petal Search',
+          description: "Senior software engineer at Huawei. Ingestion, a knowledge graph, and the APIs behind the Petal Search interface.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/petal-search/";
+            },},{id: "projects-port-hamiltonian-models-in-julia",
+          title: 'Port-Hamiltonian models in Julia',
+          description: "Student research at SimTech. Julia packages for system modeling, with tests running in GitHub Actions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/port-hamiltonian-julia/";
+            },},{id: "projects-rice-encoder-for-flight-software",
+          title: 'Rice encoder for flight software',
+          description: "Lossless Rice encoding in C for the flight software of JAXA&#39;s DESTINY+ asteroid mission.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rice-encoder/";
+            },},{id: "projects-robodog-guide",
+          title: 'RoboDog Guide',
+          description: "Master&#39;s thesis: a Unitree Go1 that guides people indoors by voice, plans with a local LLM agent, and only walks through doors it has checked.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robotdog-indoor-navigation/";
+            },},{id: "projects-siren-detection-in-the-audio-loop",
+          title: 'Siren detection in the audio loop',
+          description: "Werkstudent work at Bosch. An Azure pipeline around a ROS siren classifier, plus the Docker and Bazel move that kept the build reproducible.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/siren-detection/";
             },},{
         id: 'social-discord',
         title: 'Discord',
